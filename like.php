@@ -59,6 +59,7 @@ if($res->num_rows === 0){
    }
 }
 
-
+//close Database connection
+$db_con->close();
 
 ?>
